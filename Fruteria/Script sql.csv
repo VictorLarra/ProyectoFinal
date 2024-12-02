@@ -1,0 +1,9 @@
+"table_name,""column_name"",""data_type""";;;
+"productos,""nombre"",""character varying""";;;
+"productos,""id"",""integer""";CONSULTAS EN SQL REALIZADAS;;
+"productos,""cantidad"",""integer""";DELETE FROM productos WHERE nombre = ?;;
+"productos,""precio"",""numeric""";SELECT id, nombre, cantidad, precio FROM productos;;
+;"""INSERT INTO productos (nombre, cantidad, precio) VALUES ('manzana', 2000, 2)";;
+;SELECT SUM(precio) AS total_precio FROM productos;;
+;;;
+;;;
